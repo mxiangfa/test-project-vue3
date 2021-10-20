@@ -2,9 +2,9 @@
  * @Author: mengxiangfa
  * @Date: 2021-10-18 16:38:59
  * @LastEditors: mengxiangfa
- * @LastEditTime: 2021-10-19 14:07:20
+ * @LastEditTime: 2021-10-20 14:03:23
  * @Description: file content
- * @FilePath: \test-project\vite.config.js
+ * @FilePath: \test-project-vue3\vite.config.js
  */
 import { defineConfig } from "vite"
 import { resolve } from "path"
@@ -17,7 +17,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      "/@/": pathResolve("src"),
+      // "/@/": pathResolve("src"),
+      "@": pathResolve("src"),
     },
   },
 
@@ -37,7 +38,7 @@ export default defineConfig({
   },
   server: {
     host: "0.0.0.0",
-    // port: 8080,//端口
+    // port: 8089,//端口
     open: true, // 是否自动在浏览器打开
     https: false, // 是否开启 https
     ssr: false, // 服务端渲染

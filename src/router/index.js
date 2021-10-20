@@ -2,9 +2,9 @@
  * @Author: mengxiangfa
  * @Date: 2021-10-18 17:24:08
  * @LastEditors: mengxiangfa
- * @LastEditTime: 2021-10-19 10:28:50
+ * @LastEditTime: 2021-10-20 14:03:39
  * @Description: file content
- * @FilePath: \test-project\src\router\index.js
+ * @FilePath: \test-project-vue3\src\router\index.js
  */
 import {
   createRouter,
@@ -13,7 +13,7 @@ import {
 } from "vue-router"
 
 // 1. 定义路由组件， 注意，这里一定要使用 文件的全名（包含文件后缀名）
-import home from "../views/home.vue"
+import home from "@/views/home.vue"
 
 // 2. 定义路由配置
 const routes = [

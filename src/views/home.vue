@@ -2,15 +2,12 @@
  * @Author: mengxiangfa
  * @Date: 2021-10-18 17:29:18
  * @LastEditors: mengxiangfa
- * @LastEditTime: 2021-10-19 14:08:19
+ * @LastEditTime: 2021-10-20 11:02:11
  * @Description: file content
- * @FilePath: \test-project\src\views\home.vue
+ * @FilePath: \test-project-vue3\src\views\home.vue
 -->
 <template>
-  <div class="home">
-    2222222222222
-    <div class="text">22223333333333333333</div>
-  </div>
+  <div class="home">测试</div>
 </template>
 
 <script>
